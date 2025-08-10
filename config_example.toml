@@ -1,0 +1,5 @@
+
+[env]
+MAINNET_RPC_URL=""
+MAINNET_WSS_URL=""
+RAYDIUM_LPV4=""
