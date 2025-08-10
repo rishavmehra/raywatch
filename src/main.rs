@@ -21,10 +21,13 @@ struct Config {
     RAYDIUM_LPV4: String
 }
 
-fn main(){
+#[actix_web::main]
+async fn main() -> Result<(), Box<dyn Error>>{
     println!("hello world");
 
     let config = get_config();
+
+    subscribe().await
 
     // println!("mainnet rpc url:{}", &config.env.MAINNET_RPC_URL);
     // println!("mainnet rpc url:{}", &config.env.MAINNET_WSS_URL);
