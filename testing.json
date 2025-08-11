@@ -1,0 +1,775 @@
+// {
+//     "context": {
+//       "slot": 359189699,
+//       "api_version": null
+//     },
+//     "value": {
+//       "signature": "4GBUqccNehRQqPZ8jTDBmAXaPDVzaxwHVMyFErjTA3j4wGGvgm3b9zBe5qMMofkM9zChKrJeaPEzGVGMhBrsjSCv",
+//       "err": null,
+//       "logs": [
+//         "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+//         "Program ComputeBudget111111111111111111111111111111 success",
+//         "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+//         "Program ComputeBudget111111111111111111111111111111 success",
+//         "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+//         "Program log: CreateIdempotent",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+//         "Program log: Instruction: GetAccountDataSize",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 67701 compute units",
+//         "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+//         "Program 11111111111111111111111111111111 invoke [2]",
+//         "Program 11111111111111111111111111111111 success",
+//         "Program log: Initialize the associated token account",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+//         "Program log: Instruction: InitializeImmutableOwner",
+//         "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 61114 compute units",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+//         "Program log: Instruction: InitializeAccount3",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 57232 compute units",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+//         "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 26815 of 80606 compute units",
+//         "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+//         "Program log: Instruction: Route",
+//         "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+//         "Program log: ray_log: A6VuKZJEAAAAAAAAAAAAAAACAAAAAAAAAKVuKZJEAAAAkImAxGUQAQA26G6BAQAAACqwYAAAAAAA",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+//         "Program log: Instruction: Transfer",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 34205 compute units",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+//         "Program log: Instruction: Transfer",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 27091 compute units",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+//         "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 27448 of 49110 compute units",
+//         "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 184 of 20011 compute units",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 35493 of 53791 compute units",
+//         "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 KrBgAAAAAAA=",
+//         "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+//         "Program log: Instruction: CloseAccount",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 18298 compute units",
+//         "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+//       ]
+//     }
+//   }
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "38zQcWRRuJnBr6FAQhF4PEghtEZNwsZ78sGeVL2HM6DaZkdhpcuRS1AhqF8avcSTRo5VbfCix5eFCeuQzBsBQDNX", err: None, logs: [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A84YSwEAAAAAx081AAAAAAABAAAAAAAAAM4YSwEAAAAAdWQrpx0AAABsvOPlWwAAACeQagAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 582977 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 575772 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29057 of 599407 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 570350 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "38zQcWRRuJnBr6FAQhF4PEghtEZNwsZ78sGeVL2HM6DaZkdhpcuRS1AhqF8avcSTRo5VbfCix5eFCeuQzBsBQDNX", err: None, logs: [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A84YSwEAAAAAx081AAAAAAABAAAAAAAAAM4YSwEAAAAAdWQrpx0AAABsvOPlWwAAACeQagAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 582977 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 575772 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29057 of 599407 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 570350 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "38zQcWRRuJnBr6FAQhF4PEghtEZNwsZ78sGeVL2HM6DaZkdhpcuRS1AhqF8avcSTRo5VbfCix5eFCeuQzBsBQDNX", err: None, logs: [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A84YSwEAAAAAx081AAAAAAABAAAAAAAAAM4YSwEAAAAAdWQrpx0AAABsvOPlWwAAACeQagAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 582977 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 575772 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29057 of 599407 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 570350 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "3NL7pgt1SH6HonWGQWX4kmMmfehuayJfbG9QV1fcmHDbfJzXK1kekb5ksi6QcYDBfo3LgnoBwhPVVwBvAiHLn1qh", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 199700 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A3L3qwQAAAAA6uORAAAAAAACAAAAAAAAAJu9t4hSBAAA1Ed7JGoAAABSBET4GQAAAJ3VIwEAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 179836 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 172722 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29047 of 196257 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 167210 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2Fr5Tgn8NuozsyAJ44NFafDWdf1jLQEJgpt8ca3YkvxiriVCXi6FwRcNK4Bfsyrjtss5wiVqCeYRCFU4t9Ba5TJK", err: Some(InstructionError(2, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH invoke [1]",
+      "Program log: paths checked: 0",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH consumed 23952 of 475705 compute units",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "4FunCYspnwBExePapdajMjs2Us7R2JGfNovAqPsnAneTHvEpQhUmSiVLj7shfpx7jCKZDFnZTpKgWZrzwxhLkAmj", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: CreateIdempotent",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 200850 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 194263 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 190381 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 22315 of 209255 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: SyncNative",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3045 of 186790 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+      "Program log: Instruction: Route",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4735 of 179933 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 184 of 173691 compute units",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: Aw8nAAAAAAAAAAAAAAAAAAACAAAAAAAAAA8nAAAAAAAA+UAfFgAAAADLsP8DAAAAAAoHAAAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 155497 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 148292 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 27286 of 170240 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 184 of 141303 compute units",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program swapNyd8XiQwJ6ianp9snpu4brUqFxadzvHebnAXjJZ invoke [2]",
+      "Program log: Instruction: SwapV2",
+      "Program data: rFJyzxtn0wQl2+GAvr17eBwX2OmVv1f6stLeVKMi50itgO7ixgUm9gMAAADg6xbXAQ0AAMgncfb8FAAAKBLs7WEbAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6200 of 75768 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program vo1tWgqZMjG61Z2T9qUaMYKqZ75CYzMuaZ2LZP1n7HV invoke [3]",
+      "Program log: Instruction: WithdrawV2",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [4]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6200 of 56341 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program vo1tWgqZMjG61Z2T9qUaMYKqZ75CYzMuaZ2LZP1n7HV consumed 14114 of 63870 compute units",
+      "Program vo1tWgqZMjG61Z2T9qUaMYKqZ75CYzMuaZ2LZP1n7HV success",
+      "Program swapNyd8XiQwJ6ianp9snpu4brUqFxadzvHebnAXjJZ consumed 90483 of 137885 compute units",
+      "Program swapNyd8XiQwJ6ianp9snpu4brUqFxadzvHebnAXjJZ success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 184 of 45749 compute units",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 139717 of 183745 compute units",
+      "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 CgcAAAAAAAA=",
+      "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 44028 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2vgT8Cyhrdx8QsBKJ7MSNBUMi6HbDc6Hm6nLbmQkvjKW5fwUGuy9p1y1jVcSwap4LatkA86PwvXhGYEd8H2oXSbR", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB invoke [1]",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB consumed 13914 of 382992 compute units",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB success",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB invoke [1]",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB consumed 22587 of 369078 compute units",
+      "Program 9eMXjBT7Pmm1HqMB39CoYrCrpKBMLESe8o1BY2vnhTLB success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "5NCiFWDpkaQo5f1ge6QLmuXYdd97zwbzsc4rmmHMcT92sXKsJbud9dQAa97BBJ7WcyhToTYsBgSBF4Gqn1cZHZMb", err: Some(InstructionError(2, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program sattCHvHkM4XHLyadnU4KQtuNWZbWVDKzuPhmJBXCkq invoke [1]",
+      "Program sattCHvHkM4XHLyadnU4KQtuNWZbWVDKzuPhmJBXCkq consumed 592209 of 759700 compute units",
+      "Program sattCHvHkM4XHLyadnU4KQtuNWZbWVDKzuPhmJBXCkq failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "3Qx79MSE5UQXkqQaQPZ7571bX8KPKLjVt1nLfDouriHhK2TAsf9EJPRH5tdZR3mXsPQBdbNBumoaH5HwwYgrpfr9", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 199700 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A416FgAAAAAAedQtAAAAAAABAAAAAAAAAI16FgAAAAAARj8nKWoAAAC1LiD3GQAAAK2sWwAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 179827 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 172622 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29057 of 196257 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 167200 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2HAjJ1re68b4MVNp2A55eRp4T3H9L1XzBbfKi96d61mgC7XYGjeECp1T1wSdx1nPhRzMvKtTpdKqe6a3ZhkisiTZ", err: None, logs: [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [1]",
+      "Program log: ray_log: A3KV7QEAAAAAPXJPAAAAAAABAAAAAAAAAHKV7QEAAAAATtTAph0AAAA61S7nWwAAAGrWngAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 582977 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 575772 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 29057 of 599407 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 570350 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "Q4jFb2aeVwPmaAR5b6ZH1bRQKXo8YnRpJVJpKJA5t1Tf5RcKMLsYhvn7Hbtm15AD1vSDesrE9qdneivaiSBTH8T", err: Some(InstructionError(3, InsufficientFunds)), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt invoke [1]",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 287541 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [3]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 280954 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4188 of 277072 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21837 of 294438 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt consumed 42967 of 299572 compute units",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt failed: insufficient funds for instruction"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "5Kg1qry99EzqRAdkERQyNhsfabab35dqhSHPzGPXepm6PiNJ3q82oeHgZLb2LPZ41Xd48ANEBKfpim7wLv1yybrd", err: Some(InstructionError(3, InsufficientFunds)), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt invoke [1]",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 385621 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [3]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 379034 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4188 of 375152 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21837 of 392518 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt consumed 51817 of 399595 compute units",
+      "Program MEViZt7uNtZs47XkjujUuMSAxxxVtQQ25SwToLcEckt failed: insufficient funds for instruction"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "4C4QexsYfrfVU5dSsyRqsL3GkPetL4m2Vx2BLnpjpQLxhb2qjJmB9g8ptAYcYf9Gi7DPiDENpEE49uTF8nJ86pyV", err: Some(InstructionError(3, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs invoke [1]",
+      "Program log: r 6",
+      "Program log: p 5",
+      "Program log: 359376226 fra 7",
+      "Program log: br 0 ba 50000000 bf -855385",
+      "Program log: mi s: 0, ma s: 50000000 bp: 0 ",
+      "Program log: f_in: 0",
+      "Program log: e p: 0",
+      "Program log: f_in: 15000000000",
+      "Program log: e p: -6326552841",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: AwDWEX4DAAAAAAAAAAAAAAACAAAAAAAAAHbb/LY6AAAAOUlB1X8DAAALaz2pWUUAAFWm88VEAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 450893 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 443688 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 26833 of 465170 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 352349 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 343679 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 2203 of 334570 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 103480 of 434986 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: A0dMx4hIAAAAAAAAAAAAAAABAAAAAAAAAEdMx4hIAAAA5ClMDtQCAAAwzXeW5UYAAIg0/t8CAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 313273 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 306159 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 27663 of 328379 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program log: p -2652086648",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs consumed 282536 of 582545 compute units",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "5XuyhMBGjFyMwFgtYXxLh5u8iSY9b5yvcKJqNMDNJev8D35V1Shc85isFrxP7LRXcPUfwcDoddC6GxXcRFCUbghY", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 420435 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "4nSNvSE7AVDnmj3o6C25a7HVoX4rwPKUbGusXQMuAaksNNru78utDzEx5XpZ3G8beq8xHXUiieAzjhR8sZYbdzgK", err: Some(InstructionError(3, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs invoke [1]",
+      "Program log: r 6",
+      "Program log: p 5",
+      "Program log: 359376226 fra 7",
+      "Program log: br 0 ba 50000000 bf -855385",
+      "Program log: mi s: 0, ma s: 50000000 bp: 0 ",
+      "Program log: f_in: 0",
+      "Program log: e p: 0",
+      "Program log: f_in: 15000000000",
+      "Program log: e p: -6326552841",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: AwDWEX4DAAAAAAAAAAAAAAACAAAAAAAAAHbb/LY6AAAAOUlB1X8DAAALaz2pWUUAAFWm88VEAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 450892 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 443687 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 26833 of 465169 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 352348 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 343678 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 2203 of 334569 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 103480 of 434985 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: A0dMx4hIAAAAAAAAAAAAAAABAAAAAAAAAEdMx4hIAAAA5ClMDtQCAAAwzXeW5UYAAIg0/t8CAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 313272 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 306158 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 27663 of 328378 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program log: p -2652086648",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs consumed 282536 of 582544 compute units",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2jiY8hZNHUHANkhL456PjuKYjzZDWhF4b6DfsVMz2jZZXcsKgBZSxbHVzzN9XqsNGbRYmRrXwgzTkHHDAfr98mCW", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program 11fjFQmQdWr52GigwyUNrRn6YCejUxbNzBEhCw465xZ invoke [1]",
+      "Program 11fjFQmQdWr52GigwyUNrRn6YCejUxbNzBEhCw465xZ consumed 49296 of 284550 compute units",
+      "Program 11fjFQmQdWr52GigwyUNrRn6YCejUxbNzBEhCw465xZ success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "eG7WFrL9xbw9iTT8ti64aaP6yj7YmcZmjyFBih5yeVnJefJ28nX27JozQGAtWMgcpVzCbDxbPYWKRWiawSukk76", err: Some(InstructionError(2, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH invoke [1]",
+      "Program log: paths checked: 0",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH consumed 23952 of 438434 compute units",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2cr7DUpsVLV1S54reEvyKTsvR7Pzh1gpNkMYqxYbwWBpbEHnaYuVaBPwn7SwnrjSALtZ27Qu9MHU7eknG2Wkq7PY", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 413023 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "5oKmvXqTRGx8PzocJMoENAByrVf3UrTGU2n83dpB25K6e581ojyCXev2Jnk472Qdcq9BNkPabQWZSdc3j74SEdJZ", err: Some(InstructionError(2, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH invoke [1]",
+      "Program log: paths checked: 0",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH consumed 23952 of 469938 compute units",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "QXu5E4MzDagEbZcHM9NELxwbB7DRzfHWm5cqK5NJuvoQspCtfbM4vMDk9Wk86AUq48h1PPhYgHN3T89dWyoN8HA", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 418767 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "3uMJbALt6EtxT5nGiEPv63A6dKbTXJs4a3WNYG9cJhpgzFbdUQJTUuFdfi4hzgEZQvNpVUpNQ8ehy7GZQNBobUzW", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 427387 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "5bbCv5Arxt8U3TuvWnF4c4sC1jFNTxjemU89b3yDiNYFcVgtEdbyAZ6tYEmkUT45CnLG37NANrRFUQT1WyPjhW4e", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 432195 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2K9qmX3RfW3V8aBf8DX51zPzYVAxufGzFBUAgh8z3WCJCP6DzcAUnkzH11KYJhB8vPx6oCpF5z8KRe71iME2zJA2", err: Some(InstructionError(2, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH invoke [1]",
+      "Program log: paths checked: 0",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH consumed 23952 of 487339 compute units",
+      "Program AYnWYZVWM6ZLAYXQpTM3ygEjEddZFjW8rQV7Y23a27mH failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2e6X9s9jFkPZYhFiE6gHR9akWQPuib82X19v4joXuxfuasCz5FsTcHsg7JtQU6XKtkS4XrNSWMD5rrTZf1RvHKtf", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 452810 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "2bXuujuW89a35iNgbsrhkn4vpG3SCKUU2VrbhfqLD3yPVALR1hLnpjrEYeeJz1jRUgQ6SHAR9gushdLuiWku5kwy", err: Some(InstructionError(3, Custom(1))), logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs invoke [1]",
+      "Program log: r 6",
+      "Program log: p 5",
+      "Program log: 359376226 fra 7",
+      "Program log: br 0 ba 50000000 bf -855385",
+      "Program log: mi s: 0, ma s: 50000000 bp: 0 ",
+      "Program log: f_in: 0",
+      "Program log: e p: 0",
+      "Program log: f_in: 15000000000",
+      "Program log: e p: -6326552841",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: AwDWEX4DAAAAAAAAAAAAAAACAAAAAAAAAHbb/LY6AAAAOUlB1X8DAAALaz2pWUUAAFWm88VEAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 450894 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 443689 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 26833 of 465171 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 352350 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 343680 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 2203 of 334571 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 103480 of 434987 compute units",
+      "Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 invoke [2]",
+      "Program log: ray_log: A0dMx4hIAAAAAAAAAAAAAAABAAAAAAAAAEdMx4hIAAAA5ClMDtQCAAAwzXeW5UYAAIg0/t8CAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 313274 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 306160 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 consumed 27663 of 328380 compute units",
+      "Program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 success",
+      "Program log: p -2652086648",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs consumed 282536 of 582546 compute units",
+      "Program CataF1xj8FR7sUGeDtAuqfWj8gzCsD11jbmUosBmpUJs failed: custom program error: 0x1"
+    ]
+  }
+}
+{ context: RpcResponseContext { slot: 359376253, api_version: None
+  }, value: RpcLogsResponse { signature: "3XRU2R2wQEfvRuWXfbiWJ89B44E42ngWVTDD4EahyhFYTxSNK1HBgayccpYu5Fg9NNBn3ysRjrXgtE5R1VJaMVQL", err: None, logs: [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 consumed 60187 of 392895 compute units",
+      "Program FgXpcyyVp5tZ7AdNL6W1UnRxJUdYa2op7FUxmGyZxYT4 success"
+    ]
+  }
+}

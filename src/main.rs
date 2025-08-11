@@ -1,24 +1,30 @@
 use std::{fs, time::Duration, error::Error};
-use actix_web::{dev::Response, rt::time::sleep};
+use actix_web::{ rt::time::sleep};
+use chrono::Local;
 use serde::{self, Deserialize};
+use serde_json::Value;
 use solana_client::{
     nonblocking::pubsub_client::PubsubClient, 
-    rpc_config::{RpcTransactionLogsConfig, RpcTransactionLogsFilter}
+    rpc_config::{RpcTransactionLogsConfig, RpcTransactionLogsFilter},
+    rpc_response::{RpcLogsResponse, Response}
 };
 use solana_sdk::commitment_config::CommitmentConfig;
-use futures::StreamExt;
+use futures::{future::ok, StreamExt};
 
 
+const LOG_LEVEL: &str = "LOG";
 #[derive(Deserialize)]
 struct EnvConfig{
     env: Config
 }
 
+
 #[derive(Deserialize)]
 struct Config {
     MAINNET_RPC_URL: String,
     MAINNET_WSS_URL: String,
-    RAYDIUM_LPV4: String
+    RAYDIUM_LPV4: String,
+    LOGS_INSTRUCTION: String
 }
 
 #[actix_web::main]
@@ -48,7 +54,7 @@ async fn subscribe() -> Result<(), Box<dyn Error>> {
                     println!("Connected ot Websocket after {attempts} attempts")
                 }
                 attempts = 0;
-                let (mut launch, _) = ws_client
+                let (mut stream, _) = ws_client
                     .logs_subscribe(
                         RpcTransactionLogsFilter::Mentions(vec![get_config().env.RAYDIUM_LPV4.to_string()]),
                         RpcTransactionLogsConfig {
@@ -60,7 +66,7 @@ async fn subscribe() -> Result<(), Box<dyn Error>> {
                 println!("Subscribed to Raydium Liquidity pool");
 
                 loop {
-                    match launch.next().await {
+                    match stream.next().await {
                         Some(res) =>{
                             // todo: need to add the message parsing 
                             println!("Received log: {:?}", res);
@@ -95,6 +101,80 @@ fn get_config() -> EnvConfig {
 }
 
 
+async fn process_message(res: Response<RpcLogsResponse>) {
+    let value = res.value;
+    for log in value.logs {
+        if !log.contains(get_config().env.LOGS_INSTRUCTION.as_str()){
+            continue;
+        }
+        let signature_str = &value.signature;
+        get_tokens()
+    }
+}
+
+// TODO: add the token filters
+
+// async fn get_tokens(sign: &str, program:String){
+//     let result = token_transactions
+// }
 
 
 
+// pub async fn token_transactions(sign: &str, encode: &str, http: &str)-> Result<Value, Box<dyn Error>>{
+
+//     let logger = Logger::new(format)
+
+
+// }
+
+struct Logger {
+    prefix: String,
+    date_format: String,
+}
+
+impl Logger {
+    fn new(prefix: String) -> Self{
+        Logger{
+            prefix,
+            date_format: String::from("%Y-%m-%d %H:%M:%S"),
+        }
+    }
+
+    fn log(&self, message: String) -> String {
+        let log = format!("{} {}", self.prefix_with_date(), message);
+        println!("{}", log);
+        log
+    }
+
+    fn debug(&self, message: String) -> String{
+        let log = format!("{} [{}] {}", self.prefix_with_date(), "DEBUG", message);
+        if LogLevel::new().is_debug(){
+            println!("{}", log)
+        }
+        log
+    }
+
+    fn error(&self, message: String) -> String {
+        let log = format!("{} [{}] {}", self.prefix_with_date(), "ERROR", message);
+        log
+    }
+
+    fn prefix_with_date(&self) -> String {
+        let date = Local::now();
+        format!("[{}] {}", date.format(self.date_format.as_str()), self.prefix)
+    }
+}
+
+struct LogLevel<'a>{
+    level: &'a str
+}
+
+impl LogLevel<'_>{
+    fn new() -> Self{
+        let level = LOG_LEVEL;
+        LogLevel { level }
+    }
+    fn is_debug(&self) -> bool {
+        self.level.to_lowercase().eq("debug")
+    }
+}
